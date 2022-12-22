@@ -1,0 +1,324 @@
+/*Navigation Bar Stylesheet*/
+
+.navbar{
+  height:80px;
+}
+.Home{
+  margin-left: 13rem;
+}
+.navMargin{
+  margin-left: 4rem;
+}
+.headingButton{
+  background-color: #3A4F7A;
+  color:white;
+}
+
+/*Second Division*/
+.firstDivision{
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+  background-image: url("Images/dark-people-man-guy.jpg");
+  background-size: cover;
+  color:white;
+  position:relative;
+  overflow: hidden;
+  border-bottom-left-radius: 30% 60px;
+  border-bottom-right-radius:30% 60px;
+  margin-bottom: -10px;
+
+}
+.roundContainer{
+  width:100%;
+  padding-bottom: 20px;
+  overflow:hidden;
+}
+.mainHeading{
+  width:30%;
+  margin-left: 12rem;
+  margin-top: 4rem;
+}
+.mainParagraph{
+  margin-top: 2rem;
+  margin-left: 12rem;
+  width:27%;
+}
+.readMore{
+  margin-top: 1rem;
+  margin-left: 12rem;
+}
+
+/*Card Division styleSheet*/
+
+.cardContainer{
+  padding:1rem 0 3rem 0;
+  position:absolute;
+  z-index:2;
+  top:36rem;
+}
+.AimCard{
+  width:calc(33% - 30px);
+  padding:0 15px;
+}
+.rowCard{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+}
+.rowCard:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+.firstCard{
+  overflow: hidden;
+  padding: 1rem;
+  height:330px;
+}
+.cardColumn{
+  width:20rem;
+}
+.cardColumn1{
+  width:19rem;
+}
+.cardColumn2{
+  width:20rem;
+}
+.Title{
+  color:#3A4F7A;
+}
+.LearnMore{
+  text-decoration: none;
+  color:gray;
+}
+.aim{
+  width:20%;
+  margin-left: 1rem;
+}
+.SecondCard{
+  height:333px;
+}
+.secondText{
+  margin-bottom: 2rem;
+}
+
+/*Third Section*/
+.ThirdSection{
+  margin-top: 20rem;
+}
+.secondHeading{
+  text-align:center;
+  font-size: 30px;
+}
+.NewsCard{
+  overflow: hidden;
+  width:20rem;
+  margin-left: 0;
+}
+.NewsCol{
+  width:calc(33% -30px);
+  padding:0 ;
+  margin-left: 1rem;
+}
+.NewsRow{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  padding-top: 3%;
+}
+.NewsRow:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+.ReadMore{
+  text-decoration: none;
+}
+
+/*Cryptocurrency Section*/
+.FourthScetion{
+  margin-top: 7rem;
+}
+.Cryptocurrency{
+  background-image: url("Images/Cryptocurrency.jpg");
+  background-size: cover;
+  padding-left:1rem;
+  padding-right: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.cryptoHeading{
+  color:white;
+  font-weight: lighter;
+  width:65%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+
+/*Footersection*/
+.iCoinColumn{
+  margin-left: 4rem;
+}
+.icoinLogo{
+  width:75%;
+
+}
+.SiteColumn{
+  margin-left: 6rem;
+}
+.footercloumn{
+  text-align: center;
+  color: gray;
+  margin-top: 2rem;
+}
+
+.FooterPara{
+  margin-top: 2rem;
+  text-align: center;
+  color:gray;
+  font-size: 15px;
+}
+.NewsLetterColumn{
+  margin-left: 3rem;
+}
+
+
+/*Mobile Section*/
+
+@media only screen and (max-width: 600px){
+  .AimCard{
+    width:100%;
+    display:block;
+    margin-bottom: 20px;
+  }
+  .NewsCard{
+    width:100%;
+    display:block;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 1100px){
+  .cardContainer{
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 1140px){
+  .NewsCard{
+    margin-left: 1rem;
+  }
+  .ThirdCard{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 943px){
+  .mainHeading{
+    width:50%;
+  }
+  .mainParagraph{
+    width:30%;
+  }
+  .minuteCard{
+    margin-top: 2rem;
+  }
+  .SecondCard{
+    margin-top: 2rem;
+  }
+  .ThirdSection{
+    margin-top: 48rem;
+  }
+}
+
+@media only screen and (max-width: 940px){
+  .mainHeading{
+    margin-top: 8rem;
+  }
+}
+@media only screen and (max-width: 623px){
+  .mainHeading{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .mainParagraph{
+    width:50%;
+    margin-left: 9rem;
+    text-align:center;
+  }
+  .readMore{
+    margin-left: 15rem;
+    text-align: center;
+  }
+  .ThirdSection{
+    margin-top: 70rem;
+  }
+  .NewsCard{
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 568px){
+  .mainParagraph{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .readMore{
+    text-align: center;
+    margin-left: 8rem;
+  }
+  .rowCard{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+  }
+  .NewsCard{
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+  }
+}
+@media only screen and (max-width: 770px){
+  .firstCoumn,.iCoinColumn,.SiteColumn,.NewsLetterColumn{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+  }.icoinLogo {
+  margin-left: 5rem;
+  margin-right: auto;
+  width: 50%;
+}
+
+.iconsList {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media only screen and (max-width: 325px){
+  .cardContainer{
+      margin-top: 4rem;
+    }
+  .readMore{
+      margin-left: 7rem;
+    }
+  .footerDiv{
+      text-align: center;
+  }
+}
+@media only screen and (max-width: 390px){
+  .cryptoHeading{
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+  }
+}
